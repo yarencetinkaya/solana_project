@@ -12,7 +12,7 @@ const App: React.FC = () => {
 
   const [videoId, setVideoId] = useState(1);
   const [buttonDisabled, setButtonDisabled] = useState(true);
-  const [videoLink, setVideoLink] = useState("tAGnKpE4NCI");
+  const [videoLink, setVideoLink] = useState("a1mSjk9Vuwg");
   const [showButton, setShowButton] = useState(true);
   const [claimButton, setClaimButton] = useState(false);
 
@@ -23,13 +23,13 @@ const App: React.FC = () => {
   const changeVideo = () => {
     switch (videoId) {
       case 1:
-        setVideoLink("-TSJxAKoMlE");
+        setVideoLink("JWbPy4nL35s");
         break;
       case 2:
-        setVideoLink("zDILAUHWg2s");
+        setVideoLink("qg47WbRcg8A");
         break;
       case 3:
-        setVideoLink("6XS2A41F5xU");
+        setVideoLink("tdBWT0JwOIk");
         setShowButton(false);
         setClaimButton(true);
         break;
