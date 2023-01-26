@@ -30,7 +30,7 @@ const HeaderBar = () => {
           defaultSelectedKeys={["2"]}
           style={{
             justifyContent: "right",
-            //navbar'ı align et
+            //navbar'ı align edicek bir şey
           }}
           items={new Array(3).fill(null).map((_, index) => ({
             key: String(index + 1),
