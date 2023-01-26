@@ -3,7 +3,7 @@ import YouTube from "react-youtube";
 import { Layout, Menu, theme, Button, Space } from "antd";
 import { DollarOutlined } from "@ant-design/icons";
 
-const { Header, Content, Footer } = Layout;
+const { Content, Footer } = Layout;
 
 const VideoPage = () => {
   const {
@@ -51,26 +51,6 @@ const VideoPage = () => {
 
   return (
     <Layout>
-      <Header style={{ position: "sticky", top: 0, zIndex: 1, width: "100%" }}>
-        <div
-          style={{
-            float: "left",
-            width: 120,
-            height: 31,
-            margin: "16px 24px 16px 0",
-            background: "rgba(255, 255, 255, 0.2)",
-          }}
-        />
-        <Menu
-          theme="dark"
-          mode="horizontal"
-          defaultSelectedKeys={["1"]}
-          items={new Array(3).fill(null).map((_, index) => ({
-            key: String(index + 1),
-            label: `Video ${index + 1}`,
-          }))}
-        />
-      </Header>
       <Content
         className="site-layout"
         style={{ padding: "0 50px", alignSelf: "center" }}
@@ -79,7 +59,7 @@ const VideoPage = () => {
           style={{
             padding: 24,
             minHeight: 380,
-            background: "#0045",
+            background: "#0050",
             margin: 16,
           }}
         >
